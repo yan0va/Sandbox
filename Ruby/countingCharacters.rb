@@ -5,7 +5,7 @@ puts "What is the input string?"
 while true
     input = gets.chomp
 	if !input.empty?
-		counting = input.length
+	counting = input.length
     	puts "#{input} has #{counting} characters."
     	break
     end
